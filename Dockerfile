@@ -21,7 +21,6 @@ RUN chmod +x /usr/local/bin/ecs-cli
 
 ARG MAVEN_VERSION=3.2.5
 ARG USER_HOME_DIR="/root"
-#ARG SHA=3c984a8bab93040531b53c68dea84968af09a07e1ee1a8efa711f266a8390a31
 ARG SHA=8c190264bdf591ff9f1268dc0ad940a2726f9e958e367716a09b8aaa7e74a755
 ARG BASE_URL=https://apache.osuosl.org/maven/maven-3/${MAVEN_VERSION}/binaries
 
